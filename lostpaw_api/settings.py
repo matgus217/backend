@@ -41,18 +41,17 @@ ALLOWED_HOSTS = ['8000-matgus217-backend-ce8vrsu647o.ws-eu111.gitpod.io']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'cloudinary_storage',
     'django.contrib.staticfiles',
-     'cloudinary',
-     'rest_framework',
+    'cloudinary',
+    'rest_framework',
 
-     
-     'profiles', 
+    'profiles',
 
 ]
 
